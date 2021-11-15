@@ -1,0 +1,66 @@
+.body {
+  max-width: 1500px;
+  width: 100%;
+}
+
+.site-title {
+  color: #191970;
+  margin: 15px;
+  font-size: 20px;
+}
+
+#header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+}
+#header ul {
+  display: flex;
+  padding: 10px 30px;
+}
+#header li {
+  margin-left: 25px;
+}
+#header li a {
+  color: #191970;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.content {
+  position: relative;
+}
+
+.content__img img {
+  background-size: cover;
+  width: 50%;
+  margin-left: 600px;
+}
+
+.content__text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  font-size: 50px;
+  color: aliceblue;
+  transform: translate(-50%, -50%);
+}
+
+.box {
+  width: 1000px;
+  background: darkblue;
+  height: 150px;
+  position: relative;
+}
+
+.box::before {
+  content: "毎日を笑顔に";
+  color: black;
+  position: absolute;
+  top: -50px;
+  left: 0px;
+  font-size: 50px;
+  font-weight: lighter;
+}
