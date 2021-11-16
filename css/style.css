@@ -1,8 +1,3 @@
-.body {
-  max-width: 1500px;
-  width: 100%;
-}
-
 .site-title {
   color: #191970;
   margin: 15px;
@@ -30,28 +25,23 @@
 }
 
 .content {
-  position: relative;
 }
 
 .content__img img {
-  background-size: cover;
-  width: 50%;
-  margin-left: 600px;
+  width: 100%;
 }
-
-.content__text {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  font-size: 50px;
-  color: aliceblue;
-  transform: translate(-50%, -50%);
+.content__img {
+  margin: 10% 0 0 50%;
+  width: 50%;
+  position: relative;
+  bottom: -40px;
 }
 
 .box {
-  width: 1000px;
-  background: darkblue;
-  height: 150px;
+  width: 70%;
+  background: #191970;
+  height: 170px;
+  margin-top: -10%;
   position: relative;
 }
 
