@@ -24,33 +24,21 @@
   font-weight: bold;
 }
 
-.content {
+
+
+.example {
+  margin-top: 20%;
+  display: flex;
+  justify-content: space-between;
 }
 
-.content__img img {
-  width: 100%;
-}
-.content__img {
-  margin: 10% 0 0 50%;
-  width: 50%;
-  position: relative;
-  bottom: -40px;
-}
-
-.box {
-  width: 70%;
-  background: #191970;
-  height: 170px;
-  margin-top: -10%;
-  position: relative;
-}
-
-.box::before {
-  content: "毎日を笑顔に";
-  color: black;
-  position: absolute;
-  top: -50px;
-  left: 0px;
-  font-size: 50px;
+.example h1{
+  font-size: 60px;
   font-weight: lighter;
 }
+
+.example img{
+  margin-top: -80px;
+}
+
+
